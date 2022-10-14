@@ -1,0 +1,7 @@
+authRequired	server.js	/^  authRequired: false,$/;"	p	class:const
+auth0Logout	server.js	/^  auth0Logout: true,$/;"	p	class:const
+baseURL	server.js	/^  baseURL: 'http:\/\/localhost:3001',$/;"	p	class:const
+clientID	server.js	/^  clientID: 'XblLWBFA824c6tN5etQQx67YSFpVvDQE',$/;"	p	class:const
+issuerBaseURL	server.js	/^  issuerBaseURL: 'https:\/\/dev-ow4wccii.us.auth0.com',$/;"	p	class:const
+secret	server.js	/^  secret: 'LONG_RANDOM_STRING'$/;"	p	class:const
+const	server.js	/^const config = {$/;"	c

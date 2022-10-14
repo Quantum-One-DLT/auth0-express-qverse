@@ -21,7 +21,7 @@ app.use(express.json());
 const config = {
   authRequired: false,
   auth0Logout: true,
-  baseURL: 'https://quantaverseid.io',
+  baseURL: 'login.quantumone.network',
   clientID: 'XblLWBFA824c6tN5etQQx67YSFpVvDQE',
   issuerBaseURL: 'https://dev-ow4wccii.us.auth0.com',
   secret: 'LONG_RANDOM_STRING'
@@ -39,7 +39,7 @@ app.get('/profile', requiresAuth(), (req, res) => {
   res.send(JSON.stringify(req.oidc.user));
 });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 if (!config.baseURL && !process.env.BASE_URL && process.env.PORT && process.env.NODE_ENV !== 'production') {
   config.baseURL = `http://localhost:${port}`;
 }
