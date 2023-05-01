@@ -1,5 +1,5 @@
 {
-  "name": "auth0-express-webapp-sample",
+  "name": "quantaverse-oidc-express-server",
   "scripts": {},
   "dependencies": {
     "debug": "~2.6.9",
